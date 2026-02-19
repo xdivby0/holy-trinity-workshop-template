@@ -4,7 +4,7 @@
  */
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "template-for-workshop",
+	"name": "holy-trinity-workshop-template",
 	"compatibility_date": "2025-04-04",
 	"main": "./workers/app.ts",
 	"vars": {
@@ -15,6 +15,14 @@
 	},
 	"compatibility_flags": [
 		"nodejs_compat"
+	],
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "DB",
+			"database_id": "7923c432-b106-454a-857e-b7461752b299",
+			"migrations_dir": "prisma/migrations"
+		}
 	]
 	/**
 	 * Smart Placement
