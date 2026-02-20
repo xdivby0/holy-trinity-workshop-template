@@ -15,15 +15,15 @@
 	},
 	"compatibility_flags": [
 		"nodejs_compat"
-	],
-	"d1_databases": [
+	]
+	/*"d1_databases": [
 		{
 			"binding": "DB",
 			"database_name": "DB",
 			"database_id": "7923c432-b106-454a-857e-b7461752b299",
 			"migrations_dir": "prisma/migrations"
 		}
-	]
+	]*/
 	/**
 	 * Smart Placement
 	 * https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement
